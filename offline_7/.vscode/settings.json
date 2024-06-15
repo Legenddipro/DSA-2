@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "functional": "cpp",
+        "string_view": "cpp",
+        "ranges": "cpp",
+        "ratio": "cpp",
+        "streambuf": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}

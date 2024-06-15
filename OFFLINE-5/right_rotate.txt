@@ -1,0 +1,13 @@
+RIGHT-ROTATE.T; y/
+1 x D y:left   // set x
+2 y:left D x:right  // turn x’s right subtree into y’s left subtree
+3 if x:right ¤ T:nil
+4 x:right:p D y
+5 x:p D y:p    // link y’s parent to x
+6 if y:p == T:nil
+7 T:root D x
+8 elseif y == y:p:right
+9 y:p:right D x
+10 else y:p:left D x
+11 x:right D y    // put y on x’s right
+12 y:p D x
